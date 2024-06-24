@@ -1,0 +1,105 @@
+.contact51-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-max-width {
+  align-self: center;
+}
+.contact51-section-title {
+  width: 100%;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.contact51-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-content1 {
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact51-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 746px;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.contact51-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-content3 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-contact-info {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-text1 {
+  align-self: flex-start;
+  text-align: center;
+}
+.contact51-content4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-contact-info1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-text3 {
+  align-self: flex-start;
+  text-align: center;
+}
+.contact51-content5 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-contact-info2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact51-text6 {
+  align-self: flex-start;
+  text-align: center;
+}
+.contact51-image {
+  max-width: 767px;
+}
+@media(max-width: 991px) {
+  .contact51-content1 {
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

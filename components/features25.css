@@ -1,0 +1,34 @@
+.features25-container1 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-fiveunits);
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+}
+.features25-image-container {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.features25-image {
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.features25-image1 {
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+@media(max-width: 991px) {
+  .features25-container1 {
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
+  }
+}

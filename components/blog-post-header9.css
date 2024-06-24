@@ -1,0 +1,41 @@
+.blog-post-header9-blog-post-header3 {
+  width: 1789px;
+  height: 424px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-bottom: 13px;
+  background-color: var(--dl-color-theme-primary1);
+}
+.blog-post-header9-text {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  width: 1328px;
+  font-size: 35px;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+}
+.blog-post-header9-content {
+  width: 1307px;
+  height: 257px;
+  background-color: var(--dl-color-theme-primary1);
+}
+.blog-post-header9-text1 {
+  font-size: 25px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.blog-post-header9-button {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+}
+@media(max-width: 479px) {
+  .blog-post-header9-text {
+    text-align: center;
+  }
+}

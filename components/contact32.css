@@ -1,0 +1,193 @@
+.contact32-contact20 {
+  height: 434px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.contact32-max-width {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-section-title {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact32-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-text {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.contact32-text1 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  width: 983px;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.contact32-row {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.contact32-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-icon {
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.contact32-contact-info {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-content2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact32-text2 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 30px;
+  align-self: stretch;
+  text-align: center;
+  font-family: "Poppins";
+}
+.contact32-email {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.contact32-content3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-contact-info1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-content4 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact32-text3 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 30px;
+  align-self: stretch;
+  text-align: center;
+  font-family: "Poppins";
+}
+.contact32-phone {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.contact32-content5 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-contact-info2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact32-content6 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact32-text4 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 30px;
+  align-self: stretch;
+  text-align: center;
+  font-family: "Poppins";
+}
+.contact32-address {
+  fill: var(--dl-color-theme-primary2);
+  color: var(--dl-color-theme-primary2);
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.contact32-root-class-name {
+  background-color: var(--dl-color-theme-secondary2);
+}
+@media(max-width: 767px) {
+  .contact32-row {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .contact32-row {
+    align-items: stretch;
+  }
+}

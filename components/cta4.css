@@ -1,0 +1,34 @@
+.cta4-container {
+  width: 1672px;
+  height: 583px;
+  display: flex;
+  position: relative;
+  margin-top: 74px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-primary1);
+}
+.cta4-max-width {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.cta4-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .cta4-container1 {
+    flex-direction: column;
+  }
+}
