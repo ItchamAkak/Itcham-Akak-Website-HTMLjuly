@@ -1,0 +1,13 @@
+.hero8-header26 {
+  gap: var(--dl-space-space-twounits);
+  width: 1421px;
+  height: 1094px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+.hero8-image {
+  width: 1403px;
+  height: 1042px;
+  object-fit: cover;
+}

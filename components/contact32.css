@@ -1,5 +1,5 @@
 .contact32-contact20 {
-  height: 434px;
+  height: 469px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -32,6 +32,8 @@
 .contact32-text {
   fill: var(--dl-color-theme-accent2);
   color: var(--dl-color-theme-accent2);
+  width: 241px;
+  height: 65px;
   font-size: 40px;
   font-style: normal;
   font-family: "Poppins";
@@ -61,9 +63,13 @@
   align-items: center;
   flex-direction: column;
 }
+.contact32-link {
+  display: contents;
+}
 .contact32-icon {
   animation-name: none;
   animation-delay: 0s;
+  text-decoration: none;
   animation-duration: 300ms;
   animation-direction: normal;
   animation-iteration-count: 1;
@@ -107,6 +113,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.contact32-link1 {
+  display: contents;
+}
+.contact32-icon2 {
+  text-decoration: none;
 }
 .contact32-contact-info1 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -180,14 +192,4 @@
 }
 .contact32-root-class-name {
   background-color: var(--dl-color-theme-secondary2);
-}
-@media(max-width: 767px) {
-  .contact32-row {
-    flex-direction: column;
-  }
-}
-@media(max-width: 479px) {
-  .contact32-row {
-    align-items: stretch;
-  }
 }

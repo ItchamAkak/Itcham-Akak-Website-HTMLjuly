@@ -34,8 +34,3 @@
   align-self: center;
   flex-direction: row;
 }
-@media(max-width: 479px) {
-  .blog-post-header9-text {
-    text-align: center;
-  }
-}

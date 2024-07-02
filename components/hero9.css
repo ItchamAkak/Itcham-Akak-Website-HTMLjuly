@@ -9,6 +9,10 @@
   position: absolute;
   object-fit: cover;
 }
+.hero9-video {
+  width: 320px;
+  height: 180px;
+}
 .hero9-container {
   top: 0px;
   left: 0px;
@@ -38,21 +42,25 @@
   flex-direction: column;
 }
 .hero9-text {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 60px;
   text-align: center;
+  font-family: "Poppins";
 }
 .hero9-text1 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 30px;
+  font-style: normal;
   text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 .hero9-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
-}
-.hero9-text2 {
-  text-align: center;
-}
-.hero9-text3 {
-  text-align: center;
 }
 @media(max-width: 991px) {
   .hero9-text {
@@ -66,11 +74,5 @@
   .hero9-actions {
     width: 100%;
     flex-direction: column;
-  }
-  .hero9-button {
-    width: 100%;
-  }
-  .hero9-button1 {
-    width: 100%;
   }
 }

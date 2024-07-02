@@ -80,33 +80,3 @@
   height: 440px;
   object-fit: cover;
 }
-@media(max-width: 991px) {
-  .gallery4-content {
-    align-items: center;
-    flex-direction: column;
-  }
-  .gallery4-image1 {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1/1;
-  }
-  .gallery4-container2 {
-    width: 100%;
-  }
-  .gallery4-image2 {
-    height: 100%;
-  }
-  .gallery4-image3 {
-    height: 100%;
-  }
-}
-@media(max-width: 767px) {
-  .gallery4-section-title {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
-}
-@media(max-width: 479px) {
-  .gallery4-gallery3 {
-    padding: var(--dl-space-space-oneandhalfunits);
-  }
-}

@@ -1,0 +1,36 @@
+.cta1-container {
+  gap: var(--dl-space-space-threeunits);
+  height: 354px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-primary1);
+}
+.cta1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.cta1-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.cta1-heading1 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  text-align: center;
+  font-family: "Poppins";
+}
+.cta1-content1 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  font-size: 25px;
+  text-align: center;
+  font-family: "Poppins";
+}

@@ -1,0 +1,93 @@
+.sign-up81-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+.sign-up81-max-width {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-up81-form-root {
+  gap: var(--dl-space-space-unit);
+  width: 1380px;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.sign-up81-form {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-up81-title-root {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up81-text {
+  color: #497eff;
+  text-align: center;
+  font-family: "Poppins";
+}
+.sign-up81-have-an-account-login {
+  gap: var(--dl-space-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up81-text1 {
+  font-family: "Poppins";
+}
+.sign-up81-form1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up81-email {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-up81-textinput {
+  width: 100%;
+  font-family: "Poppins";
+  border-color: var(--dl-color-theme-primary2);
+  background-color: transparent;
+}
+.sign-up81-button {
+  width: 100%;
+  border-color: #497eff;
+  background-color: #497eff;
+}
+.sign-up81-text2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.sign-up81-have-an-account-login1 {
+  gap: var(--dl-space-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
